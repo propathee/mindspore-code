@@ -176,6 +176,18 @@ export MSCLI_MODEL=claude-3-5-sonnet
 ./ms-cli
 ```
 
+### Use Kimi subscription
+
+For Kimi subscription users using the Anthropic-compatible endpoint:
+
+```bash
+export MSCLI_PROVIDER=anthropic
+export MSCLI_MODEL=kimi-2.5
+export MSCLI_BASE_URL=https://api.kimi.com/coding/
+export MSCLI_API_KEY=xx
+./ms-cli
+```
+
 ### Use OpenRouter (OpenAI-compatible third-party routing)
 
 OpenRouter uses an OpenAI-compatible interface, so set provider to `openai-completion`:
